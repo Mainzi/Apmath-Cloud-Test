@@ -1,2 +1,2 @@
-# ApmathCloudTest
-Azure Web app test
+# AzureWebAppTest
+Azure Web App Test
