@@ -1,8 +1,14 @@
 @{
-var txt = DateTime.Now; // любой код на C#
+var txt = DateTime.Now; // Г«ГѕГЎГ®Г© ГЄГ®Г¤ Г­Г  C#
+double e = 1;
+double buf = 0;
+for(int i = 0; i < 10; i++)
+	buf *= i;
+	e += 1./buf;
 }
 <html>
 	<body>
 		<p>The dateTime is @txt</p>
+		<p>e = @e</p>
 	</body>
 </html>
